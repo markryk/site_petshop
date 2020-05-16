@@ -1,0 +1,512 @@
+@charset = "UTF-8";
+/*Formatação da página cachorro.html*/
+ul#racoes_cachorro {
+	position: relative;
+	width: 1100px;
+	margin: 0 auto;
+	padding: 10px;
+	list-style: none;
+}
+ul#racoes_cachorro h2 {
+	position: relative;
+	margin: 20px;
+	padding-bottom: 0px;
+	left: -10px;
+}
+ul#racoes_cachorro li {
+	position: relative;
+	float: left;
+	width: 200px;
+	height: 350px;
+	margin: 5px;
+	border: 1px solid #dddddd;
+	background-color: #ffffff;
+	box-shadow: 2px 2px 3px rgba(0,0,0,.4);
+	opacity: 1;
+}
+ul#racoes_cachorro li#racao_cachorro01 {
+	background: url('../_img/racao_cachorro01.jfif') no-repeat;
+	opacity: 1;
+}
+ul#racoes_cachorro li#racao_cachorro01:hover {
+	opacity: 0.5;
+	transition: opacity 1s;
+	text-decoration: underline #006400;
+}
+ul#racoes_cachorro li#racao_cachorro02 {
+	background: url('../_img/racao_cachorro02.jfif') no-repeat;
+	opacity: 1;	
+}
+ul#racoes_cachorro li#racao_cachorro02:hover {
+	opacity: 0.5;
+	transition: opacity 1s;
+	text-decoration: underline #006400;
+}
+ul#racoes_cachorro li#racao_cachorro03 {
+	background: url('../_img/racao_cachorro03.jfif') no-repeat;
+	opacity: 1;
+}
+ul#racoes_cachorro li#racao_cachorro03:hover {
+	opacity: 0.5;
+	transition: opacity 1s;
+	text-decoration: underline #006400;
+}
+ul#racoes_cachorro li#racao_cachorro04 {
+	background: url('../_img/racao_cachorro04.jfif') no-repeat;
+	opacity: 1;
+}
+ul#racoes_cachorro li#racao_cachorro04:hover {
+	opacity: 0.5;
+	transition: opacity 1s;
+	text-decoration: underline #006400;
+}
+ul#racoes_cachorro li#racao_cachorro05 {
+	background: url('../_img/racao_cachorro05.jfif') no-repeat;
+	opacity: 1;
+}
+ul#racoes_cachorro li#racao_cachorro05:hover {
+	opacity: 0.5;
+	transition: opacity 1s;
+	text-decoration: underline #006400;
+}
+ul#racoes_cachorro li#racao_cachorro01 a {
+	position: relative;
+	font-family: Arial;
+	font-size: 12pt;
+	color: #000000; /*preto*/
+	text-decoration: none;
+	top: 200px;
+	left: 15px;
+}
+ul#racoes_cachorro li#racao_cachorro01 p {
+	position: relative;
+	font-family: Arial;
+	font-size: 12pt;
+	color: #000000; /*preto*/
+	text-decoration: none;
+	top: 200px;
+	left: 15px;
+}
+ul#racoes_cachorro li#racao_cachorro01 a p#texto_negrito {
+	position: relative;
+	font-family: Ranga;
+	font-size: 20pt;
+	font-weight: bold;
+	color: #c71585; /*rosa*/
+	text-decoration: none;
+	top: -10px;
+	left: 0px;
+}
+ul#racoes_cachorro li#racao_cachorro01 a p#texto_pequeno {
+	position: relative;
+	font-family: Arial;
+	font-size: 8pt;
+	color: #000000; /*preto*/
+	text-decoration: none;
+	top: -75px;
+	left: 30px;
+}
+ul#racoes_cachorro li#racao_cachorro02 a {
+	position: relative;
+	font-family: Arial;
+	font-size: 12pt;
+	color: #000000; /*verde*/
+	text-decoration: none;
+	top: 200px;
+	left: 15px;
+}
+ul#racoes_cachorro li#racao_cachorro02 p {
+	position: relative;
+	font-family: Arial;
+	font-size: 12pt;
+	color: #000000; /*preto*/
+	text-decoration: none;
+	top: 200px;
+	left: 15px;
+}
+ul#racoes_cachorro li#racao_cachorro02 a p#texto_negrito {
+	position: relative;
+	font-family: Ranga;
+	font-size: 20pt;
+	font-weight: bold;
+	color: #c71585; /*preto*/
+	text-decoration: none;
+	top: -60px;
+	left: 0px;
+}
+ul#racoes_cachorro li#racao_cachorro02 a p#texto_pequeno {
+	position: relative;
+	font-family: Arial;
+	font-size: 8pt;
+	color: #000000; /*preto*/
+	text-decoration: none;
+	top: -125px;
+	left: 30px;
+}
+ul#racoes_cachorro li#racao_cachorro03 a {
+	position: relative;
+	font-family: Arial;
+	font-size: 12pt;
+	color: #000000; /*verde*/
+	text-decoration: none;
+	top: 200px;
+	left: 15px;
+}
+ul#racoes_cachorro li#racao_cachorro03 p {
+	position: relative;
+	font-family: Arial;
+	font-size: 12pt;
+	color: #000000; /*preto*/
+	text-decoration: none;
+	top: 200px;
+	left: 15px;
+}
+ul#racoes_cachorro li#racao_cachorro03 a p#texto_negrito {
+	position: relative;
+	font-family: Ranga;
+	font-size: 20pt;
+	font-weight: bold;
+	color: #c71585; /*preto*/
+	text-decoration: none;
+	top: -80px;
+	left: 0px;
+}
+ul#racoes_cachorro li#racao_cachorro03 a p#texto_pequeno {
+	position: relative;
+	font-family: Arial;
+	font-size: 8pt;
+	color: #000000; /*preto*/
+	text-decoration: none;
+	top: -145px;
+	left: 30px;
+}
+ul#racoes_cachorro li#racao_cachorro04 a {
+	position: relative;
+	font-family: Arial;
+	font-size: 12pt;
+	color: #000000; /*verde*/
+	text-decoration: none;
+	top: 200px;
+	left: 15px;
+}
+ul#racoes_cachorro li#racao_cachorro04 p {
+	position: relative;
+	font-family: Arial;
+	font-size: 12pt;
+	color: #000000; /*preto*/
+	text-decoration: none;
+	top: 200px;
+	left: 15px;
+}
+ul#racoes_cachorro li#racao_cachorro04 a p#texto_negrito {
+	position: relative;
+	font-family: Ranga;
+	font-size: 20pt;
+	font-weight: bold;
+	color: #c71585; /*preto*/
+	text-decoration: none;
+	top: -80px;
+	left: 0px;
+}
+ul#racoes_cachorro li#racao_cachorro04 a p#texto_pequeno {
+	position: relative;
+	font-family: Arial;
+	font-size: 8pt;
+	color: #000000; /*preto*/
+	text-decoration: none;
+	top: -145px;
+	left: 30px;
+}
+ul#racoes_cachorro li#racao_cachorro05 a {
+	position: relative;
+	font-family: Arial;
+	font-size: 12pt;
+	color: #000000; /*verde*/
+	text-decoration: none;
+	top: 200px;
+	left: 15px;
+}
+ul#racoes_cachorro li#racao_cachorro05 p {
+	position: relative;
+	font-family: Arial;
+	font-size: 12pt;
+	color: #000000; /*preto*/
+	text-decoration: none;
+	top: 200px;
+	left: 15px;
+}
+ul#racoes_cachorro li#racao_cachorro05 a p#texto_negrito {
+	position: relative;
+	font-family: Ranga;
+	font-size: 20pt;
+	font-weight: bold;
+	color: #c71585; /*preto*/
+	text-decoration: none;
+	top: -80px;
+	left: 0px;
+}
+ul#racoes_cachorro li#racao_cachorro05 a p#texto_pequeno {
+	position: relative;
+	font-family: Arial;
+	font-size: 8pt;
+	color: #000000; /*preto*/
+	text-decoration: none;
+	top: -145px;
+	left: 30px;
+}
+
+/*Formatação da página gato.html*/
+ul#racoes_gato {
+	position: relative;
+	width: 1100px;
+	margin: 0 auto;
+	padding: 10px;
+	list-style: none;
+}
+ul#racoes_gato h2 {
+	position: relative;
+	margin: 20px;
+	padding-bottom: 0px;
+	left: -10px;
+}
+ul#racoes_gato li {
+	position: relative;
+	float: left;
+	width: 200px;
+	height: 350px;
+	margin: 5px;
+	border: 1px solid #dddddd;
+	background-color: #ffffff;
+	box-shadow: 2px 2px 3px rgba(0,0,0,.4);
+	opacity: 1;
+}
+ul#racoes_gato li#racao_gato01 {
+	background: url('../_img/racao_gato01.jpg') no-repeat;
+	opacity: 1;
+}
+ul#racoes_gato li#racao_gato01:hover {
+	opacity: 0.5;
+	transition: opacity 1s;
+	text-decoration: underline #006400;
+}
+ul#racoes_gato li#racao_gato02 {
+	background: url('../_img/racao_gato02.jpg') no-repeat;
+	opacity: 1;
+}
+ul#racoes_gato li#racao_gato02:hover {
+	opacity: 0.5;
+	transition: opacity 1s;
+	text-decoration: underline #006400;
+}
+ul#racoes_gato li#racao_gato03 {
+	background: url('../_img/racao_gato03.jpg') no-repeat;
+	opacity: 1;
+}
+ul#racoes_gato li#racao_gato03:hover {
+	opacity: 0.5;
+	transition: opacity 1s;
+	text-decoration: underline #006400;
+}
+ul#racoes_gato li#racao_gato04 {
+	background: url('../_img/racao_gato04.jpg') no-repeat;
+	opacity: 1;
+}
+ul#racoes_gato li#racao_gato04:hover {
+	opacity: 0.5;
+	transition: opacity 1s;
+	text-decoration: underline #006400;
+}
+ul#racoes_gato li#racao_gato05 {
+	background: url('../_img/racao_gato05.jpg') no-repeat;
+	opacity: 1;
+}
+ul#racoes_gato li#racao_gato05:hover {
+	opacity: 0.5;
+	transition: opacity 1s;
+	text-decoration: underline #006400;
+}
+ul#racoes_gato li#racao_gato01 a {
+	position: relative;
+	font-family: Arial;
+	font-size: 12pt;
+	color: #000000; /*preto*/
+	text-decoration: none;
+	top: 200px;
+	left: 15px;
+}
+ul#racoes_gato li#racao_gato01 p {
+	position: relative;
+	font-family: Arial;
+	font-size: 12pt;
+	color: #000000; /*preto*/
+	text-decoration: none;
+	top: 200px;
+	left: 15px;
+}
+ul#racoes_gato li#racao_gato01 a p#texto_negrito {
+	position: relative;
+	font-family: Ranga;
+	font-size: 20pt;
+	font-weight: bold;
+	color: #c71585; /*preto*/
+	text-decoration: none;
+	top: -10px;
+	left: 0px;
+}
+ul#racoes_gato li#racao_gato01 a p#texto_pequeno {
+	position: relative;
+	font-family: Arial;
+	font-size: 8pt;
+	color: #000000; /*preto*/
+	text-decoration: none;
+	top: -75px;
+	left: 30px;
+}
+ul#racoes_gato li#racao_gato02 a {
+	position: relative;
+	font-family: Arial;
+	font-size: 12pt;
+	color: #000000; /*verde*/
+	text-decoration: none;
+	top: 200px;
+	left: 15px;
+}
+ul#racoes_gato li#racao_gato02 p {
+	position: relative;
+	font-family: Arial;
+	font-size: 12pt;
+	color: #000000; /*preto*/
+	text-decoration: none;
+	top: 200px;
+	left: 15px;
+}
+ul#racoes_gato li#racao_gato02 a p#texto_negrito {
+	position: relative;
+	font-family: Ranga;
+	font-size: 20pt;
+	font-weight: bold;
+	color: #c71585; /*preto*/
+	text-decoration: none;
+	top: -80px;
+	left: 0px;
+}
+ul#racoes_gato li#racao_gato02 a p#texto_pequeno {
+	position: relative;
+	font-family: Arial;
+	font-size: 8pt;
+	color: #000000; /*preto*/
+	text-decoration: none;
+	top: -145px;
+	left: 30px;
+}
+ul#racoes_gato li#racao_gato03 a {
+	position: relative;
+	font-family: Arial;
+	font-size: 12pt;
+	color: #000000; /*verde*/
+	text-decoration: none;
+	top: 200px;
+	left: 15px;
+}
+ul#racoes_gato li#racao_gato03 p {
+	position: relative;
+	font-family: Arial;
+	font-size: 12pt;
+	color: #000000; /*preto*/
+	text-decoration: none;
+	top: 200px;
+	left: 15px;
+}
+ul#racoes_gato li#racao_gato03 a p#texto_negrito {
+	position: relative;
+	font-family: Ranga;
+	font-size: 20pt;
+	font-weight: bold;
+	color: #c71585; /*preto*/
+	text-decoration: none;
+	top: -60px;
+	left: 0px;
+}
+ul#racoes_gato li#racao_gato03 a p#texto_pequeno {
+	position: relative;
+	font-family: Arial;
+	font-size: 8pt;
+	color: #000000; /*preto*/
+	text-decoration: none;
+	top: -125px;
+	left: 30px;
+}
+ul#racoes_gato li#racao_gato04 a {
+	position: relative;
+	font-family: Arial;
+	font-size: 12pt;
+	color: #000000; /*verde*/
+	text-decoration: none;
+	top: 200px;
+	left: 15px;
+}
+ul#racoes_gato li#racao_gato04 p {
+	position: relative;
+	font-family: Arial;
+	font-size: 12pt;
+	color: #000000; /*preto*/
+	text-decoration: none;
+	top: 200px;
+	left: 15px;
+}
+ul#racoes_gato li#racao_gato04 a p#texto_negrito {
+	position: relative;
+	font-family: Ranga;
+	font-size: 20pt;
+	font-weight: bold;
+	color: #c71585; /*preto*/
+	text-decoration: none;
+	top: -80px;
+	left: 0px;
+}
+ul#racoes_gato li#racao_gato04 a p#texto_pequeno {
+	position: relative;
+	font-family: Arial;
+	font-size: 8pt;
+	color: #000000; /*preto*/
+	text-decoration: none;
+	top: -145px;
+	left: 30px;
+}
+ul#racoes_gato li#racao_gato05 a {
+	position: relative;
+	font-family: Arial;
+	font-size: 12pt;
+	color: #000000;
+	text-decoration: none;
+	top: 200px;
+	left: 15px;
+}
+ul#racoes_gato li#racao_gato05 p {
+	position: relative;
+	font-family: Arial;
+	font-size: 12pt;
+	color: #000000; /*preto*/
+	text-decoration: none;
+	top: 200px;
+	left: 15px;
+}
+ul#racoes_gato li#racao_gato05 a p#texto_negrito {
+	position: relative;
+	font-family: Ranga;
+	font-size: 20pt;
+	font-weight: bold;
+	color: #c71585;
+	text-decoration: none;
+	top: -60px;
+	left: 0px;
+}
+ul#racoes_gato li#racao_gato05 a p#texto_pequeno {
+	position: relative;
+	font-family: Arial;
+	font-size: 8pt;
+	color: #000000; /*preto*/
+	text-decoration: none;
+	top: -125px;
+	left: 30px;
+}

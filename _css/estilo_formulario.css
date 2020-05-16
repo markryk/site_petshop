@@ -1,0 +1,22 @@
+@charset = "UTF-8";
+form#formulario {
+	padding: 20px;
+	margin: 50px 10px 50px 10px;
+	background-color: #98fb98;
+	box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+}
+nav#menu-cadastro {
+	display: block;
+	position: absolute;
+	top: 10px;
+	left: 1100px;
+	margin-right: -20px;
+	padding-bottom: 0px;
+}
+input.cadastrar {
+	width: 100px;
+	height: 50px;
+	font-family: Ranga;
+	font-size: 15pt;
+	background-color: #adff2f;
+}

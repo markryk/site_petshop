@@ -1,0 +1,195 @@
+@charset = "UTF-8";
+/*Formatação da página cachorro.html*/
+ul#produtos-cachorro {
+	position: relative;
+	width: 1000px;
+	margin: 0 auto;
+	padding: 10px;
+	list-style: none;
+}
+ul#produtos-cachorro h2 {
+	position: relative;
+	margin: 20px;
+	padding-bottom: 0px;
+	left: -10px;
+}
+ul#produtos-cachorro li {
+	position: relative;
+	float: left;
+	width: 150px;
+	height: 200px;
+	margin: 5px;
+	margin-left: 70px;
+	border: 1px solid #dddddd;
+	background-color: #ffffff;
+	box-shadow: 2px 2px 3px rgba(0,0,0,.4);
+	opacity: 1;
+}
+ul#produtos-cachorro li#produto01 {
+	background: url('../_img/cachorro-racoes.jfif') no-repeat;
+	opacity: 1;
+}
+ul#produtos-cachorro li#produto01:hover {
+	opacity: 0.5;
+	transition: opacity 1s;
+	text-decoration: underline #006400;
+}
+ul#produtos-cachorro li#produto02 {
+	background: url('../_img/cachorro-higiene.jfif') no-repeat;
+	opacity: 1;
+}
+ul#produtos-cachorro li#produto02:hover {
+	opacity: 0.5;
+	transition: opacity 1s;
+	text-decoration: underline #006400;
+}
+ul#produtos-cachorro li#produto03 {
+	background: url('../_img/cachorro-remedios.jfif') no-repeat;
+	opacity: 1;
+}
+ul#produtos-cachorro li#produto03:hover {
+	opacity: 0.5;
+	transition: opacity 1s;
+	text-decoration: underline #006400;
+}
+ul#produtos-cachorro li#produto04 {
+	background: url('../_img/cachorro-acessorios.jfif') no-repeat;
+	opacity: 1;
+}
+ul#produtos-cachorro li#produto04:hover {
+	opacity: 0.5;
+	transition: opacity 1s;
+	text-decoration: underline #006400;
+}
+ul#produtos-cachorro li#produto01 a {
+	position: relative;
+	font-family: Ranga;
+	font-size: 25pt;
+	color: #006400; /*verde*/
+	text-decoration: none;
+	top: 130px;
+	left: 40px;
+}
+ul#produtos-cachorro li#produto02 a {
+	position: relative;
+	font-family: Ranga;
+	font-size: 25pt;
+	color: #006400; /*verde*/
+	text-decoration: none;
+	top: 130px;
+	left: 40px;
+}
+ul#produtos-cachorro li#produto03 a {
+	position: relative;
+	font-family: Ranga;
+	font-size: 25pt;
+	color: #006400; /*verde*/
+	text-decoration: none;
+	top: 130px;
+	left: 30px;
+}
+ul#produtos-cachorro li#produto04 a {
+	position: relative;
+	font-family: Ranga;
+	font-size: 25pt;
+	color: #006400; /*verde*/
+	text-decoration: none;
+	top: 130px;
+	left: 30px;
+}
+
+/*Formatação da página gato.html*/
+ul#produtos-gato {
+	width: 1000px;
+	margin: 0 auto;
+	padding: 10px;
+	list-style: none;
+}
+ul#produtos-gato h2 {
+	position: relative;
+	margin: 20px;
+	padding-bottom: 0px;
+	left: -10px;
+}
+ul#produtos-gato li {
+	float: left;
+	width: 150px;
+	height: 200px;
+	margin: 5px;
+	margin-left: 70px;
+	border: 1px solid #dddddd;
+	background-color: #ffffff;
+	box-shadow: 2px 2px 3px rgba(0,0,0,.4);
+}
+ul#produtos-gato li#produto01 {
+	background: url('../_img/gato-racoes.jfif') no-repeat;
+	opacity: 1;
+}
+ul#produtos-gato li#produto01:hover {
+	opacity: 0.5;
+	transition: opacity 1s;
+	text-decoration: underline #006400;
+}
+ul#produtos-gato li#produto02 {
+	background: url('../_img/gato-higiene.jfif') no-repeat;
+	opacity: 1;
+}
+ul#produtos-gato li#produto02:hover {
+	opacity: 0.5;
+	transition: opacity 1s;
+	text-decoration: underline #006400;
+}
+ul#produtos-gato li#produto03 {
+	background: url('../_img/gato-remedios.jfif') no-repeat;
+	opacity: 1;
+}
+ul#produtos-gato li#produto03:hover {
+	opacity: 0.5;
+	transition: opacity 1s;
+	text-decoration: underline #006400;
+}
+ul#produtos-gato li#produto04 {
+	background: url('../_img/gato-acessorios.jfif') no-repeat;
+	opacity: 1;
+}
+ul#produtos-gato li#produto04:hover {
+	opacity: 0.5;
+	transition: opacity 1s;
+	text-decoration: underline #006400;
+}
+ul#produtos-gato li#produto01 a {
+	position: relative;
+	font-family: Ranga;
+	font-size: 25pt;
+	color: #006400; /*verde*/
+	text-decoration: none;
+	top: 130px;
+	left: 40px;
+}
+ul#produtos-gato li#produto02 a {
+	position: relative;
+	font-family: Ranga;
+	font-size: 25pt;
+	color: #006400; /*verde*/
+	text-decoration: none;
+	top: 130px;
+	left: 40px;
+}
+ul#produtos-gato li#produto03 a {
+	position: relative;
+	font-family: Ranga;
+	font-size: 25pt;
+	color: #006400; /*verde*/
+	text-decoration: none;
+	top: 130px;
+	left: 30px;
+}
+ul#produtos-gato li#produto04 a {
+	position: relative;
+	font-family: Ranga;
+	font-size: 25pt;
+	color: #006400; /*verde*/
+	text-decoration: none;
+	top: 130px;
+	left: 30px;
+}

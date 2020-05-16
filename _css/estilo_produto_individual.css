@@ -1,0 +1,205 @@
+@charset = "UTF-8";
+ul#produto_individual {
+	position: relative;
+	width: 1100px;
+	margin: 0 auto;
+	padding: 10px;
+	list-style: none;
+}
+ul#produto_individual li {
+	position: relative;
+	float: left;
+	width: 400px;
+	height: 400px;
+	margin: 5px;
+	margin-left: 50px;
+	background-color: #ffffff;	
+}
+ul#produto_individual li#imagem_racao_cachorro01 {
+	background: url('../_img/racao_cachorro01.jfif') no-repeat;
+	background-position: center;
+}
+ul#produto_individual li#imagem_racao_cachorro02 {
+	background: url('../_img/racao_cachorro02.jfif') no-repeat;
+	background-position: center;
+}
+ul#produto_individual li#imagem_racao_cachorro03 {
+	background: url('../_img/racao_cachorro03.jfif') no-repeat;
+	background-position: center;
+}
+ul#produto_individual li#imagem_racao_cachorro04 {
+	background: url('../_img/racao_cachorro04.jfif') no-repeat;
+	background-position: center;
+}
+ul#produto_individual li#imagem_racao_cachorro05 {
+	background: url('../_img/racao_cachorro05.jfif') no-repeat;
+	background-position: center;
+}
+ul#produto_individual li#imagem_higiene_cachorro01 {
+	background: url('../_img/higiene_cachorro01.jpg') no-repeat;
+	background-position: center;
+}
+ul#produto_individual li#imagem_higiene_cachorro02 {
+	background: url('../_img/higiene_cachorro02.jpg') no-repeat;
+	background-position: center;
+}
+ul#produto_individual li#imagem_higiene_cachorro03 {
+	background: url('../_img/higiene_cachorro03.jpg') no-repeat;
+	background-position: center;
+}
+ul#produto_individual li#imagem_higiene_cachorro04 {
+	background: url('../_img/higiene_cachorro04.jpg') no-repeat;
+	background-position: center;
+}
+ul#produto_individual li#imagem_higiene_cachorro05 {
+	background: url('../_img/higiene_cachorro05.jpg') no-repeat;
+	background-position: center;
+}
+ul#produto_individual li#imagem_remedios_cachorro01 {
+	background: url('../_img/remedios_cachorro01.jpg') no-repeat;
+	background-position: center;
+}
+ul#produto_individual li#imagem_acessorio_cachorro02 {
+	background: url('../_img/acessorio_cachorro02.jpg') no-repeat;
+	background-position: center;
+}
+ul#produto_individual li#imagem_acessorio_cachorro03 {
+	background: url('../_img/acessorio_cachorro03.jpg') no-repeat;
+	background-position: center;
+}
+ul#produto_individual li#imagem_acessorio_cachorro04 {
+	background: url('../_img/acessorio_cachorro04.jpg') no-repeat;
+	background-position: center;
+}
+ul#produto_individual li#imagem_acessorio_cachorro05 {
+	background: url('../_img/acessorio_cachorro05.jpg') no-repeat;
+	background-position: center;
+}
+ul#produto_individual li#imagem_acessorio_cachorro01 {
+	background: url('../_img/acessorio_cachorro01.jpg') no-repeat;
+	background-position: center;
+}
+ul#produto_individual li#imagem_remedios_cachorro02 {
+	background: url('../_img/remedios_cachorro02.jpg') no-repeat;
+	background-position: center;
+}
+ul#produto_individual li#imagem_remedios_cachorro03 {
+	background: url('../_img/remedios_cachorro03.jpg') no-repeat;
+	background-position: center;
+}
+ul#produto_individual li#imagem_remedios_cachorro04 {
+	background: url('../_img/remedios_cachorro04.jpg') no-repeat;
+	background-position: center;
+}
+ul#produto_individual li#imagem_remedios_cachorro05 {
+	background: url('../_img/remedios_cachorro05.jpg') no-repeat;
+	background-position: center;
+}
+ul#produto_individual li#imagem_racao_gato01 {
+	background: url('../_img/racao_gato01.jpg') no-repeat;
+	background-position: center;
+}
+ul#produto_individual li#imagem_racao_gato02 {
+	background: url('../_img/racao_gato02.jpg') no-repeat;
+	background-position: center;
+}
+ul#produto_individual li#imagem_racao_gato03 {
+	background: url('../_img/racao_gato03.jpg') no-repeat;
+	background-position: center;
+}
+ul#produto_individual li#imagem_racao_gato04 {
+	background: url('../_img/racao_gato04.jpg') no-repeat;
+	background-position: center;
+}
+ul#produto_individual li#imagem_racao_gato05 {
+	background: url('../_img/racao_gato05.jpg') no-repeat;
+	background-position: center;
+}
+ul#produto_individual li#imagem_higiene_gato01 {
+	background: url('../_img/higiene_gato01.jpg') no-repeat;
+	background-position: center;
+}
+ul#produto_individual li#imagem_higiene_gato02 {
+	background: url('../_img/higiene_gato02.jpg') no-repeat;
+	background-position: center;
+}
+ul#produto_individual li#imagem_higiene_gato03 {
+	background: url('../_img/higiene_gato03.jpg') no-repeat;
+	background-position: center;
+}
+ul#produto_individual li#imagem_higiene_gato04 {
+	background: url('../_img/higiene_gato04.jpg') no-repeat;
+	background-position: center;
+}
+ul#produto_individual li#imagem_higiene_gato05 {
+	background: url('../_img/higiene_gato05.jpg') no-repeat;
+	background-position: center;
+}
+ul#produto_individual li#imagem_remedio_gato01 {
+	background: url('../_img/remedio_gato01.jpg') no-repeat;
+	background-position: center;
+}
+ul#produto_individual li#imagem_remedio_gato02 {
+	background: url('../_img/remedio_gato02.jpg') no-repeat;
+	background-position: center;
+}
+ul#produto_individual li#imagem_remedio_gato03 {
+	background: url('../_img/remedio_gato03.jpeg') no-repeat;
+	background-position: center;
+}
+ul#produto_individual li#imagem_remedio_gato04 {
+	background: url('../_img/remedio_gato04.jpg') no-repeat;
+	background-position: center;
+}
+ul#produto_individual li#imagem_remedio_gato05 {
+	background: url('../_img/remedio_gato05.jpg') no-repeat;
+	background-position: center;
+}
+ul#produto_individual li#imagem_acessorio_gato01 {
+	background: url('../_img/acessorio_gato01.jpg') no-repeat;
+	background-position: center;
+}
+ul#produto_individual li#imagem_acessorio_gato02 {
+	background: url('../_img/acessorio_gato02.jpg') no-repeat;
+	background-position: center;
+}
+ul#produto_individual li#imagem_acessorio_gato03 {
+	background: url('../_img/acessorio_gato03.jpg') no-repeat;
+	background-position: center;
+}
+ul#produto_individual li#imagem_acessorio_gato04 {
+	background: url('../_img/acessorio_gato04.jpg') no-repeat;
+	background-position: center;
+}
+ul#produto_individual li#imagem_acessorio_gato05 {
+	background: url('../_img/acessorio_gato05.jpg') no-repeat;
+	background-position: center;
+}
+ul#produto_individual li#info_produto p {
+	position: relative;
+	font-family: Arial, sans-serif;
+	font-size: 25pt;
+	color: #333333;
+	text-decoration: none;
+	left: 15px;
+}
+/*Botão comprar*/
+ul#produto_individual li#info_produto p#comprar {
+	width: 150px;
+	position: relative;
+	display: inline-block;
+	background-color: #adff2f;
+	padding: 10px;
+	top: -60px;
+	text-align: center;
+}
+ul#produto_individual li#info_produto p#texto_negrito {
+	font-weight: bold;
+	color: #c71585; /*rosa*/
+}
+ul#produto_individual li#info_produto a {
+	font-family: Ranga;
+	font-size: 25pt;
+	color: #000000; /*preto*/
+	text-decoration: none;
+}

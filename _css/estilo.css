@@ -1,0 +1,296 @@
+@charset = "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+@import url('https://fonts.googleapis.com/css?family=Cookie');
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+@import url('https://fonts.googleapis.com/css?family=Ranga');
+img#logo {
+	position: absolute;
+	top: 10px;
+}
+header#cabecalho h1 {
+	position: absolute;
+	font-family: Cookie;
+	font-size: 30pt;
+	top: -10px;
+	margin-bottom: 0px;
+	margin-left: 70px;
+	text-shadow: 1px 1px 1px rgba(0,0,0,.5);
+}
+header#cabecalho h2 {
+	position: absolute;
+	font-family: Indie Flower;
+	font-size: 15pt;
+	color: #606060;
+	margin-left: 80px;
+	top: 35px;
+}
+figure.figcabecalho {
+	position: relative;
+	top: 45px;
+	left: 170px;
+}
+figure.figcabecalho2 {
+	position: relative;
+	top: 50px;
+	left: 300px;
+}
+/*quadrado que envolve o menu*/
+nav#menu {
+	display: block;
+	position: relative;
+	top: 25px;
+	left: -10px;
+	margin-right: -20px;
+	padding-bottom: 0px;
+	background-color: #98fb98;
+}
+nav#menu ul {
+	list-style: none;
+	position: relative;
+	text-align: center;
+}
+/*botões*/
+nav#menu li {
+	position: relative;
+	display: inline-block;
+	background-color: #adff2f;
+	padding: 10px;
+	margin: 20px;
+	top: -10px;
+}
+/*nomes dos botões*/
+nav#menu a {
+	font-family: Ranga;
+	font-size: 20pt;
+	color: #000000; /*preto*/
+	text-decoration: none;
+}
+nav#menu h1 {
+	font-family: Pacifico;
+	font-size: 20pt;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	padding: 0px;
+}
+nav#menu-cadastro {
+	display: block;
+	position: absolute;
+	top: 10px;
+	left: 800px;
+	margin-right: -20px;
+	padding-bottom: 0px;
+}
+nav#menu-cadastro li{
+	display: inline-block;
+}
+nav#menu-cadastro a {
+	font-family: Ranga;
+	font-size: 18pt;
+	list-style: none;
+	text-align: center;
+	text-transform: uppercase;
+	background-color: #adff2f;
+	padding: 10px;
+	color: #000000; /*preto*/
+	text-decoration: none;
+}
+ul#promocao {
+	width: 1100px;
+	/*height: 100%;*/
+	margin: 0 auto;
+	padding: 10px;
+	list-style: none;
+}
+ul#promocao h2 {
+	position: relative;
+	margin: 20px;
+	padding-bottom: 0px;
+	left: -10px;
+}
+ul#promocao li {
+	float: left;
+	width: 204px;
+	height: 250px;
+	margin: 5px;
+	border: 3px solid #ffffff;
+	background-color: #ffffff;
+	box-shadow: 1px 1px 3px rgba(0,0,0,.4);
+}
+ul#promocao li#promocao01 {
+	background: url('../_img/promocao01.jfif') no-repeat;
+}
+ul#promocao li#promocao02 {
+	background: url('../_img/promocao02.jfif') no-repeat;
+}
+ul#promocao li#promocao03 {
+	background: url('../_img/promocao03.jfif') no-repeat;
+}
+ul#promocao li#promocao04 {
+	background: url('../_img/promocao04.jfif') no-repeat;
+}
+ul#promocao li#promocao05 {
+	background: url('../_img/promocao05.jfif') no-repeat;
+}
+div#interface {
+	width: 1200px;
+	height: 1475px;
+	background-color: #ffffff;
+	margin: 0px auto 0px auto;
+	box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+	padding: 10px 10px 10px 10px;
+}
+body{
+	background-color: #e0ffff;
+}
+div#conteudo h2 {
+	position: relative;
+	margin: 20px;
+	padding-bottom: 0px;
+	top: 20px;
+	left: 30px;
+}
+div#conteudo_left {
+	width: 600px;
+	height: 350px;
+	float: left;
+}
+div#conteudo_right {
+	width: 600px;
+	height: 350px;
+	float: left;
+}
+div ul {
+	position: relative;
+	top: 10px;
+	margin: 0px;
+	padding: 10px;
+	list-style: none;
+}
+div ul li#imagem01 {
+	position: relative;
+	display: inline-block;
+	float: left;
+	width: 240px;
+	height: 134px;
+	margin: 1px;
+	background: url('../_img/curiosidade_samoieda.jpg') no-repeat;
+}
+div ul li#imagem02 {
+	position: relative;
+	display: inline-block;
+	float: left;
+	width: 240px;
+	height: 134px;
+	margin: 1px;
+	background: url('../_img/curiosidade_poodle.jpg') no-repeat;
+}
+div ul li#imagem03 {
+	position: relative;
+	display: inline-block;
+	float: left;
+	width: 240px;
+	height: 134px;
+	margin: 1px;
+	background: url('../_img/curiosidade_dalmata.jpg') no-repeat;
+}
+div ul li#imagem04 {
+	position: relative;
+	display: inline-block;
+	float: left;
+	width: 240px;
+	height: 134px;
+	margin: 1px;
+	background: url('../_img/curiosidade_yorkshire.jpg') no-repeat;
+}
+div ul li#texto_curiosidade {
+	position: relative;
+	display: inline-block;
+	float: left;
+	width: 320px;
+	height: 134px;
+	margin: 1px;
+	padding: 5px;
+	background-color: #ffffff;	
+}
+div ul li#texto_curiosidade h3 {
+	font-family: Arial;
+	font-size: 15pt;
+	margin: 0px;
+}
+div ul li#texto_curiosidade h4 {
+	font-family: Arial;
+	font-size: 12pt;
+	font-weight: normal;
+	margin: 0px;
+	margin-top: 5px;
+}
+/*Formatação do rodapé*/
+footer#rodape {
+	position: relative;
+	/*bottom: 0px;*/
+	width: 1220px;
+	height: 350px;
+	right: 10px;
+	display: block;
+	clear: both;
+	border-top: 1px solid #606060;
+	background-color: #dddddd;
+}
+footer#rodape div.paginas {
+	width: 100%;
+	height: 150px;
+	margin: 10px;
+	float: left;
+}
+footer#rodape div ul h4 {
+	position: relative;
+	top: -40px;
+	font-family: Arial;
+	font-size: 15pt;
+	color: #555555;
+}
+footer#rodape div ul li {
+	position: relative;
+	list-style: square;
+	top: -50px;
+	left: 10px;
+	color: #555555;
+}
+footer#rodape div ul li a {
+	font-family: Arial;
+	font-size: 12pt;
+	color: #555555;
+	text-decoration: none;
+}
+footer#rodape ul#redes-sociais {
+	width: 400px;
+	height: 300px;
+	margin: 0 auto;
+	padding: 10px;
+}
+footer#rodape ul#redes-sociais li {
+	position: relative;
+	left: 70px;
+	float: left;
+	width: 32px;
+	height: 32px;
+	margin: 5px;
+	border: 3px solid #ffffff;
+	background-color: #ffffff;
+	box-shadow: 2px 2px 3px rgba(0,0,0,.4);
+	list-style: none;
+}
+footer#rodape ul#redes-sociais h2 {
+	position: relative;
+	width: 300px;
+	height: 30px;
+	text-align: center;
+	top: -30px;
+}
+footer#rodape p {
+	position: relative;
+	text-align: center;
+	/*background-color: #ff0000;*/
+	top: -40px;
+	left: -40px;
+}
