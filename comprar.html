@@ -7,10 +7,11 @@
 		div#compra_efetuada {
 			width: 600px;
 			height: 150px;
-			background-color: #50c878; /*Esmeralda*/
+			background-color: #50C878; /*Esmeralda*/
 			margin: 100px auto 100px auto;
 			padding: 10px;
 			box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+			text-decoration: none;
 		}
 		div#compra_efetuada h1 {
 			margin-top: 0px;
@@ -22,6 +23,7 @@
 			font-family: Ranga;
 			font-size: 20pt;
 			text-align: center;
+			text-transform: uppercase;
 		}
 	</style>
 	<meta charset="utf-8">
@@ -44,16 +46,21 @@
 		</nav>
 
 		<nav id="menu-cadastro">
-			<ul>
-				<li><a href="cadastro.html">Cadastrar-se no site</a></li>
-				<li><a href="index.html">Página inicial</a></li>
-				<li><a href="contato.html">Contato</a></li>
-			</ul>
+			<button class="btn_a">
+				<a href="login.php"><i class="fas fa-sign-in-alt"></i> Login </a>
+			</button>
+			<button class="btn_a">
+				<a href="contato.html"><i class="fas fa-envelope"></i> Contato </a>
+			</button>
 		</nav>
 
 		<div id="compra_efetuada">
 			<h1>Compra efetuada com sucesso!</h1>
 			<h2>Faça o cadastro no site para receber o produto em casa</h2>
+
+			<button class="btn_a">
+				<a href="index.php"><i class="fas fa-home"></i> Ir para Home </a>
+			</button>
 		</div>
 
 		<div id="conteudo_left">
@@ -61,32 +68,15 @@
 		</div>
 
 		<footer id="rodape">
-			<div class="paginas">
-				<ul>
-					<h4>Cachorro</h4>
-					<li><a href="cachorro_racoes.html">Rações</a></li>
-					<li><a href="cachorro_higiene.html">Higiene</a></li>
-					<li><a href="cachorro_remedios.html">Remedios</a></li>
-					<li><a href="cachorro_acessorios.html">Acessórios</a></li>
-				</ul>
-				<ul>
-					<h4>Gato</h4>
-					<li><a href="gato_racoes.html">Rações</a></li>
-					<li><a href="gato_higiene.html">Higiene</a></li>
-					<li><a href="gato_remedios.html">Remedios</a></li>
-					<li><a href="gato_acessorios.html">Acessórios</a></li>
-				</ul>
-			</div>
-
 			<ul id="redes-sociais">
-				<h2>Siga nossas redes sociais</h2>
+				<h2 class="topic_title">Siga nossas redes sociais</h2>
 				<li><a href= "http://facebook.com" target="_blank"><img src="_img/logo_face.png"></a></li>
 				<li><a href= "http://instagram.com" target="_blank"><img src="_img/logo_insta.png"></a></li>
 				<li><a href= "http://youtube.com" target="_blank"><img src="_img/logo_yt.png"></a></li>
 			</ul>
-			<br><br>
-			<p>Copyright &copy; 2018 - by Marcos Henrique <br></p>
+			<p>Copyright &copy; 2018 - by <a href="https://github.com/markryk/"> Mark Ryk </a></p>
 		</footer>
-	</div>	
+	</div>
+	<script src="https://kit.fontawesome.com/0628f7d613.js"></script>
 </body>
 </html>

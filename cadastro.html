@@ -1,45 +1,32 @@
-<!DOCTYPE html>
-<html>
 <head>
-	<title>Doggão</title>
-	<link rel="stylesheet" type="text/css" href="_css/estilo.css">
-	<link rel="stylesheet" type="text/css" href="_css/estilo_formulario.css">
-	<meta charset="utf-8">
+	<style type="text/css">
+		.form_title {
+			position: relative;
+			top: -50px;
+			background: #98FB98;
+			text-align: center;
+			font-family: Pacifico;
+		}
+	</style>
 </head>
 <body>
-	<div id="interface">
-		<header id="cabecalho">
-			<img src="_img/logo.png" id="logo">
-			<h1>Doggão & Gattão PetShop</h1>
-			<h2>Tudo para seu pet</h2>
-			<figure class="figcabecalho">
-				<img src="_img/dogscats.jpg">
-			</figure>
-		</header>
-
-		<nav id="menu">
-			<ul>
-				<h1>Ficha de cadastro</h1>
-			</ul>			
-		</nav>
-
-		<nav id="menu-cadastro">
-			<ul>
-				<li><a href="index.html">Página inicial</a></li>
-			</ul>
-		</nav>
-
+	<div class="jumbotron" style="background: white;">
+		<h1 class="form_title">Ficha de cadastro</h1>
 		<form action="inserir_cadastro.php" method="post" id="formulario">
-			Nome completo<br>
-			<input type="text" name="nome" size="50"><br><br>
-			Sexo<br>
+			<label> Nome completo </label><br>
+			<input class="form-control" type="text" name="nome" size="50"><br><br>
+
+			<label> Sexo </label><br>
 			<input type="radio" name="sexo" value="M"> Masculino &nbsp;
 			<input type="radio" name="sexo" value="F"> Feminino &nbsp;
 			<input type="radio" name="sexo" value="O"> Outro <br><br>
-			CPF<br>
+
+			<label> CPF </label><br>
 			<input type="text" name="cpf"><br><br>
-			Data de nascimento<br>
+
+			<label> Data de Nascimento </label><br>
 			<input type="Date" name="data"><br><br>
+			
 			Endereço para entrega<br>
 			<input type="text" name="endereco" size="50"><br><br>
 			Número<br>
@@ -56,39 +43,5 @@
 			<input type="E-mail" name="email" size="50"><br><br><br>
 			<input type="submit" value="CADASTRAR" class="cadastrar">
 		</form>
-
-
-			<div id="conteudo_left">
-			
-		</div>
-
-		<footer id="rodape">
-			<div class="paginas">
-				<ul>
-					<h4>Cachorro</h4>
-					<li><a href="cachorro_racoes.html">Rações</a></li>
-					<li><a href="cachorro_higiene.html">Higiene</a></li>
-					<li><a href="cachorro_remedios.html">Remedios</a></li>
-					<li><a href="cachorro_acessorios.html">Acessórios</a></li>
-				</ul>
-				<ul>
-					<h4>Gato</h4>
-					<li><a href="gato_racoes.html">Rações</a></li>
-					<li><a href="gato_higiene.html">Higiene</a></li>
-					<li><a href="gato_remedios.html">Remedios</a></li>
-					<li><a href="gato_acessorios.html">Acessórios</a></li>
-				</ul>
-			</div>
-
-			<ul id="redes-sociais">
-				<h2>Siga nossas redes sociais</h2>
-				<li><a href= "http://facebook.com" target="_blank"><img src="_img/logo_face.png"></a></li>
-				<li><a href= "http://instagram.com" target="_blank"><img src="_img/logo_insta.png"></a></li>
-				<li><a href= "http://youtube.com" target="_blank"><img src="_img/logo_yt.png"></a></li>
-			</ul>
-			<br><br>
-			<p>Copyright &copy; 2018 - by Marcos Henrique <br></p>
-		</footer>
-	</div>	
+	</div>
 </body>
-</html>

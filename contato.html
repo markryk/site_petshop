@@ -5,13 +5,33 @@
 	<link rel="stylesheet" type="text/css" href="_css/estilo.css">
 	<link rel="stylesheet" type="text/css" href="_css/estilo_formulario.css">
 	<meta charset="utf-8">
+
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" id="bootstrap-css">
+
+	<style type="text/css">
+		footer {
+			width: 1200px;
+		}
+		footer#rodape ul#redes-sociais li {
+			width: 40px;
+			height: 40px;
+		}
+	</style>
+
+	<!--<link rel="stylesheet" href="<?=$project_index;?>bootstrap/css/bootstrap.min.css">-->
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
 </head>
 <body>
 	<div id="interface">
 		<header id="cabecalho">
-			<img src="_img/logo.png" id="logo">
-			<h1>Doggão & Gattão PetShop</h1>
-			<h2>Tudo para seu pet</h2>
+			<a href="index.php">
+				<img src="_img/logo.png" id="logo">
+				<h1>Doggão & Gattão PetShop</h1>
+				<h2>Tudo para seu pet</h2>
+			</a>
+
 			<figure class="figcabecalho">
 				<img src="_img/dogscats.jpg">
 			</figure>
@@ -20,56 +40,49 @@
 		<nav id="menu">
 			<ul>
 				<h1>Contato</h1>
-			</ul>			
-		</nav>
-
-		<nav id="menu-cadastro">
-			<ul>
-				<li><a href="index.html">Página inicial</a></li>
 			</ul>
 		</nav>
 
 		<form action="inserir_contato.php" method="post" id="formulario">
-			<h2>Deixe seus dados que entraremos em contato</h2><br>
-			Nome<br>
-			<input type="text" name="nome" size="50"><br><br>
-			Telefone<br>
-			<input type="Tel" name="celular"><br><br>
-			E-mail<br>
-			<input type="E-mail" name="email" size="50"><br><br><br>
-			<input type="submit" value="ENVIAR" class="cadastrar">
+			<h2 class="topic_title">Preencha os campos para receber nossas atualizações e promoções 🙂</h2><br>
+			<label for="name"> Nome </label><br>
+			<input class="form-control" type="text" name="contact_name" id="name" required><br><br>
+
+			<label for="cell"> Celular </label><br>
+			<input class="form-control" type="text" name="contact_cel" id="cell" required><br><br>
+			
+			<label for="email"> Email </label><br>
+			<input class="form-control" type="email" name="contact_email" id="email" required><br><br><br>
+
+			<button class="btn btn_menu">
+				<i class="fas fa-external-link-alt"></i>
+				Enviar
+			</button>
+			<a class="btn btn-outline-dark btn_voltar" role="button" href="index.php"> Cancelar </a>
 		</form>
 
-		<div id="conteudo_left">
-			
-		</div>
-		<footer id="rodape">
-			<div class="paginas">
-				<ul>
-					<h4>Cachorro</h4>
-					<li><a href="cachorro_racoes.html">Rações</a></li>
-					<li><a href="cachorro_higiene.html">Higiene</a></li>
-					<li><a href="cachorro_remedios.html">Remedios</a></li>
-					<li><a href="cachorro_acessorios.html">Acessórios</a></li>
-				</ul>
-				<ul>
-					<h4>Gato</h4>
-					<li><a href="gato_racoes.html">Rações</a></li>
-					<li><a href="gato_higiene.html">Higiene</a></li>
-					<li><a href="gato_remedios.html">Remedios</a></li>
-					<li><a href="gato_acessorios.html">Acessórios</a></li>
-				</ul>
-			</div>
+		<div id="conteudo_left"></div>
 
+		<footer id="rodape">
 			<ul id="redes-sociais">
-				<h2>Siga nossas redes sociais</h2>
+				<h2 class="topic_title">Siga nossas redes sociais</h2>
 				<li><a href= "http://facebook.com" target="_blank"><img src="_img/logo_face.png"></a></li>
 				<li><a href= "http://instagram.com" target="_blank"><img src="_img/logo_insta.png"></a></li>
 				<li><a href= "http://youtube.com" target="_blank"><img src="_img/logo_yt.png"></a></li>
 			</ul>
-			<br><br>
-			<p>Copyright &copy; 2018 - by Marcos Henrique <br></p>
+			<p>Copyright &copy; 2018 - by <a href="https://github.com/markryk/"> Mark Ryk </a></p>
 		</footer>
 	</div>
+	<!--<script type="text/javascript" src="<?=$project_index;?>bootstrap/js/jquery.js"></script>
+    <script type="text/javascript" src="<?=$project_index;?>bootstrap/js/popper.min.js"></script>
+    <script type="text/javascript" src="<?=$project_index;?>bootstrap/js/bootstrap.min.js"></script>-->
+
+	<script src="https://kit.fontawesome.com/0628f7d613.js"></script>
+	<!--<script type="text/javascript" src="<?=$project_index;?>datamask/jquery.mask.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$("#cell").mask("9.9999-9999");
+		});
+	</script>-->
 </body>
 </html>
