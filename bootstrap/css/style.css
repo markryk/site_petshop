@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500&family=Teko:wght@400;500&display=swap');
+
+@media screen and (min-width: 768px) {
+  #img {
+  	left: -15px;
+  }
+  a#logo {
+  	left: 0px;
+  }
+}
+@media only screen and (max-width: 768px) {
+	div.MarkRyk {
+  		right: 50px;
+  	}
+}
+
+body, html {
+	height: 100%;
+	background-color: #362F37;	
+}
+/* CSS da logo/link do Unsplash */
+#logo {
+	position: absolute;
+	top: 0px;
+	left: 15px;
+	background-color: black;
+	color: white;
+	text-decoration: none;
+	padding: 4px 6px;
+	font-family: -apple-system, BlinkMacSystemFont, "San Francisco", "Helvetica Neue", Helvetica, Ubuntu, Roboto, Noto, "Segoe UI", Arial, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 1.2;
+	display: inline-block;
+	border-radius: 3px;
+}
+span {
+	display: inline-block;
+	padding: 2px 3px;
+}
+svg {
+	height: 12px;
+	width: auto;
+	position: relative;
+	vertical-align: middle;
+	top: -2px;
+	fill: white;
+}
+/* Fim do CSS da logo/link do Unsplash */
+
+#img {
+	position: relative;
+	max-width: 100%;
+	height: auto;
+}
+
+.login-block {
+    background: #362F37;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to bottom, #AF7780, #362F37); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to bottom, #AF7780, #362F37); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	width: 100%;
+	height: 100%;
+	padding: 50px;
+}
+.container { /* Tela onde ficam os botões */
+	background: #ffffff;
+	border-radius: 10px; 
+	box-shadow: 15px 20px 0px rgba(0,0,0,0.1);
+}
+.carousel-inner {
+	border-radius: 10px;
+}
+.carousel-caption {
+	text-align:left; 
+	/*left: 0%;*/
+}
+a.link_title {
+	text-decoration: none;
+}
+.login-sec {
+	padding: 50px 30px;
+	position: relative;
+	background: #FCFCFC;
+}
+.login-sec .copy-text {
+	position:absolute; 
+	width:80%; 
+	bottom:20px; 
+	font-size:13px; 
+	text-align:center;
+}
+.login-sec .copy-text i {
+	color:#FEB58A;
+}
+.login-sec .copy-text a {
+	color:#E36262;
+}
+.login-sec h2, h1 {
+	margin-bottom:30px; 
+	font-weight:800; 
+	font-size:30px;
+	color: #3F353D;
+}
+.login-sec h2:after {
+	content:" "; 
+	width:100px; 
+	height:5px; 
+	background:#FEB58A; 
+	display:block; 
+	margin-top:20px; 
+	border-radius:3px; 
+	margin-left:auto;
+	margin-right:auto
+}
+/* Apagar depois: .btn-login, .btn-menu, .btn-exit {
+	background: /*#DE6262*/ /*#40262D; 
+	color:#fff; 
+	font-weight:600;
+}*/
+.btn-login, .btn-menu, .btn-exit {
+	background: /*#DE6262*/ #40262D; 
+	color:#fff; 
+	font-weight: 500;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-family: 'Roboto', sans-serif;
+	width: 150px;
+}
+.btn_voltar {
+	left: 10px;
+	position: relative;
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+.banner-text {
+	width:70%; 
+	position:absolute; 
+	bottom:40px; 
+	padding-left:20px;
+}
+.banner-text h2 {
+	color:#fff; 
+	font-weight:600;
+}
+.banner-text h2:after {
+	content:" "; 
+	width:100px; 
+	height:5px; 
+	background:#FFF; 
+	display:block; 
+	margin-top:20px; 
+	border-radius:3px;
+}
+.banner-text p {
+	color:#fff;
+}
+.MarkRyk {
+	position: relative;
+	text-align: right;
+	font-family: 'Teko', cursive;
+	font-size: 20px;
+	font-weight: 400;
+	color: white;
+	right: 100px;
+}
