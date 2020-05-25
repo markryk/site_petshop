@@ -1,0 +1,32 @@
+<head>
+	<style type="text/css">
+		.form_title {
+			position: relative;
+			top: -60px;
+			background: #98FB98;
+			text-align: center;
+			font-family: Pacifico;
+		}
+	</style>
+</head>
+<body>
+	<div class="jumbotron" style="background: white;">
+		<h1 class="form_title"> Criar conta </h1>
+		<form action="create_account.php" method="post" id="formulario">
+			<label> CPF </label><br>
+			<input class="form-control" type="text" name="user_cpf" placeholder="Digite seu CPF" required><br>
+
+			<label> Nome de usuário </label><br>
+			<input class="form-control" type="text" name="user_name" placeholder="Crie um nome de usuário" required><br>
+
+			<label> Senha </label><br>
+			<input class="form-control" type="password" name="user_pwd" placeholder="Crie uma senha" required><br><br>
+
+			<button class="btn btn_menu">
+				<i class="fas fa-user-check"></i>
+				Criar
+			</button>
+			<a class="btn btn-outline-dark btn_voltar" role="button" href="login.php"> Cancelar </a>
+		</form>
+	</div>
+</body>
