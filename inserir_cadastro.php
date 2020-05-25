@@ -93,7 +93,7 @@
 				<li><a href= "http://youtube.com" target="_blank"><img src="_img/logo_yt.png"></a></li>
 			</ul>
 			<br><br>
-			<p>Copyright &copy; 2018 - by Marcos Henrique <br></p>
+			<p>Copyright &copy; 2018 - by <a href="https://github.com/markryk/" target="_blank"> Mark Ryk </a></p>
 		</footer>
 	</div>	
 </body>
