@@ -1,0 +1,841 @@
+@charset = "UTF-8";
+/*Formatação da página cachorro.html*/
+ul#racoes_cachorro, ul#higiene_cachorro, ul#remedios_cachorro, ul#acessorios_cachorro, 
+ul#racoes_gato, ul#higiene_gato, ul#remedios_gato, ul#acessorios_gato {
+	position: relative;
+	width: 1100px;
+	margin: 0 auto;
+	padding: 10px;
+	list-style: none;
+}
+ul#racoes_cachorro h2, ul#higiene_cachorro h2, ul#remedios_cachorro h2, ul#acessorios_cachorro h2, 
+ul#racoes_gato h2, ul#higiene_gato h2, ul#remedios_gato h2, ul#acessorios_gato h2 {
+	position: relative;
+	margin: 20px;
+	padding-bottom: 0px;
+	left: -10px;
+}
+ul#racoes_cachorro li, ul#higiene_cachorro li, ul#remedios_cachorro li, ul#acessorios_cachorro li, 
+ul#racoes_gato li, ul#higiene_gato li, ul#remedios_gato li, ul#acessorios_gato li {
+	position: relative;
+	float: left;
+	width: 200px;
+	height: 350px;
+	margin: 5px;
+	border: 1px solid #dddddd;
+	background-color: #ffffff;
+	box-shadow: 2px 2px 3px rgba(0,0,0,.4);
+	opacity: 1;
+}
+ul#racoes_cachorro li#racao_cachorro01 {
+	background: url('../_img/racao_cachorro01.jfif') no-repeat;
+	opacity: 1;
+}
+ul#racoes_cachorro li#racao_cachorro01:hover, ul#racoes_cachorro li#racao_cachorro02:hover, ul#racoes_cachorro li#racao_cachorro03:hover, ul#racoes_cachorro li#racao_cachorro04:hover, ul#racoes_cachorro li#racao_cachorro05:hover, 
+ul#higiene_cachorro li#higiene_cachorro01:hover, ul#higiene_cachorro li#higiene_cachorro02:hover, ul#higiene_cachorro li#higiene_cachorro03:hover, ul#higiene_cachorro li#higiene_cachorro04:hover, ul#higiene_cachorro li#higiene_cachorro05:hover, 
+ul#remedio_cachorro li#remedio_cachorro01:hover, ul#remedio_cachorro li#remedio_cachorro02:hover, ul#remedio_cachorro li#remedio_cachorro03:hover, ul#remedio_cachorro li#remedio_cachorro04:hover, ul#remedio_cachorro li#remedio_cachorro05:hover, 
+ul#acessorio_cachorro li#acessorio_cachorro01:hover, ul#acessorio_cachorro li#acessorio_cachorro02:hover, ul#acessorio_cachorro li#acessorio_cachorro03:hover, ul#acessorio_cachorro li#acessorio_cachorro04:hover, ul#acessorio_cachorro li#acessorio_cachorro05:hover,
+ul#racoes_gato li#racao_gato01:hover, ul#racoes_gato li#racao_gato02:hover, ul#racoes_gato li#racao_gato03:hover, ul#racoes_gato li#racao_gato04:hover, ul#racoes_gato li#racao_gato05:hover, 
+ul#higiene_gato li#higiene_gato01:hover, ul#higiene_gato li#higiene_gato02:hover, ul#higiene_gato li#higiene_gato03:hover, ul#higiene_gato li#higiene_gato04:hover, ul#higiene_gato li#higiene_gato05:hover, 
+ul#remedio_gato li#remedio_gato01:hover, ul#remedio_gato li#remedio_gato02:hover, ul#remedio_gato li#remedio_gato03:hover, ul#remedio_gato li#remedio_gato04:hover, ul#remedio_gato li#remedio_gato05:hover, 
+ul#acessorio_gato li#acessorio_gato01:hover, ul#acessorio_gato li#acessorio_gato02:hover, ul#acessorio_gato li#acessorio_gato03:hover, ul#acessorio_gato li#acessorio_gato04:hover, ul#acessorio_gato li#acessorio_gato05:hover, {
+	opacity: 0.5;
+	transition: opacity 1s;
+	text-decoration: underline #006400;
+}
+ul#racoes_cachorro li#racao_cachorro02 {
+	background: url('../_img/racao_cachorro02.jfif') no-repeat;
+	opacity: 1;	
+}
+ul#racoes_cachorro li#racao_cachorro03 {
+	background: url('../_img/racao_cachorro03.jfif') no-repeat;
+	opacity: 1;
+}
+ul#racoes_cachorro li#racao_cachorro04 {
+	background: url('../_img/racao_cachorro04.jfif') no-repeat;
+	opacity: 1;
+}
+ul#racoes_cachorro li#racao_cachorro05 {
+	background: url('../_img/racao_cachorro05.jfif') no-repeat;
+	opacity: 1;
+}
+ul#racoes_cachorro li#racao_cachorro01 a, ul#racoes_cachorro li#racao_cachorro02 a, ul#racoes_cachorro li#racao_cachorro03 a, ul#racoes_cachorro li#racao_cachorro04 a, ul#racoes_cachorro li#racao_cachorro05 a, 
+ul#higiene_cachorro li#higiene_cachorro01 a, ul#higiene_cachorro li#higiene_cachorro02 a, ul#higiene_cachorro li#higiene_cachorro03 a, ul#higiene_cachorro li#higiene_cachorro04 a, ul#higiene_cachorro li#higiene_cachorro05 a, 
+ul#remedio_cachorro li#remedio_cachorro01 a, ul#remedio_cachorro li#remedio_cachorro02 a, ul#remedio_cachorro li#remedio_cachorro03 a, ul#remedio_cachorro li#remedio_cachorro04 a, ul#remedio_cachorro li#remedio_cachorro05 a, 
+ul#acessorio_cachorro li#acessorio_cachorro01 a, ul#acessorio_cachorro li#acessorio_cachorro02 a, ul#acessorio_cachorro li#acessorio_cachorro03 a, ul#acessorio_cachorro li#acessorio_cachorro04 a, ul#acessorio_cachorro li#acessorio_cachorro05 a, 
+ul#racoes_cachorro li#racao_cachorro01 p, ul#racoes_cachorro li#racao_cachorro02 p, ul#racoes_cachorro li#racao_cachorro03 p, ul#racoes_cachorro li#racao_cachorro04 p, ul#racoes_cachorro li#racao_cachorro05 p, 
+ul#higiene_cachorro li#higiene_cachorro01 p, ul#higiene_cachorro li#higiene_cachorro02 p, ul#higiene_cachorro li#higiene_cachorro03 p, ul#higiene_cachorro li#higiene_cachorro04 p, ul#higiene_cachorro li#higiene_cachorro05 p, 
+ul#remedio_cachorro li#remedio_cachorro01 p, ul#remedio_cachorro li#remedio_cachorro02 p, ul#remedio_cachorro li#remedio_cachorro03 p, ul#remedio_cachorro li#remedio_cachorro04 p, ul#remedio_cachorro li#remedio_cachorro05 p, 
+ul#acessorio_cachorro li#acessorio_cachorro01 p, ul#acessorio_cachorro li#acessorio_cachorro02 p, ul#acessorio_cachorro li#acessorio_cachorro03 p, ul#acessorio_cachorro li#acessorio_cachorro04 p, ul#acessorio_cachorro li#acessorio_cachorro05 p, 
+ul#racoes_gato li#racao_gato01 a, ul#racoes_gato li#racao_gato02 a, ul#racoes_gato li#racao_gato03 a, ul#racoes_gato li#racao_gato04 a, ul#racoes_gato li#racao_gato05 a, 
+ul#higiene_gato li#higiene_gato01 a, ul#higiene_gato li#higiene_gato02 a, ul#higiene_gato li#higiene_gato03 a, ul#higiene_gato li#higiene_gato04 a, ul#higiene_gato li#higiene_gato05 a, 
+ul#remedio_gato li#remedio_gato01 a, ul#remedio_gato li#remedio_gato02 a, ul#remedio_gato li#remedio_gato03 a, ul#remedio_gato li#remedio_gato04 a, ul#remedio_gato li#remedio_gato05 a, 
+ul#acessorio_gato li#acessorio_gato01 a, ul#acessorio_gato li#acessorio_gato02 a, ul#acessorio_gato li#acessorio_gato03 a, ul#acessorio_gato li#acessorio_gato04 a, ul#acessorio_gato li#acessorio_gato05 a, 
+ul#racoes_gato li#racao_gato01 p, ul#racoes_gato li#racao_gato02 p, ul#racoes_gato li#racao_gato03 p, ul#racoes_gato li#racao_gato04 p, ul#racoes_gato li#racao_gato05 p, 
+ul#higiene_gato li#higiene_gato01 p, ul#higiene_gato li#higiene_gato02 p, ul#higiene_gato li#higiene_gato03 p, ul#higiene_gato li#higiene_gato04 p, ul#higiene_gato li#higiene_gato05 p, 
+ul#remedio_gato li#remedio_gato01 p, ul#remedio_gato li#remedio_gato02 p, ul#remedio_gato li#remedio_gato03 p, ul#remedio_gato li#remedio_gato04 p, ul#remedio_gato li#remedio_gato05 p, 
+ul#acessorio_gato li#acessorio_gato01 p, ul#acessorio_gato li#acessorio_gato02 p, ul#acessorio_gato li#acessorio_gato03 p, ul#acessorio_gato li#acessorio_gato04 p, ul#acessorio_gato li#acessorio_gato05 p {
+	position: relative;
+	font-family: Arial;
+	font-size: 12pt;
+	color: #000000; /*preto*/
+	text-decoration: none;
+	top: 200px;
+	left: 15px;
+}
+ul#racoes_cachorro li#racao_cachorro01 a p#texto_negrito, 
+ul#racoes_gato li#racao_gato01 a p#texto_negrito, 
+ul#higiene_gato li#higiene_gato01 a p#texto_negrito, 
+ul#acessorio_cachorro li#acessorio_cachorro01 a p #texto_negrito {
+	position: relative;
+	font-family: Ranga;
+	font-size: 20pt;
+	font-weight: bold;
+	color: #c71585;
+	text-decoration: none;
+	top: -10px;
+	left: 0px;
+}
+ul#racoes_cachorro li#racao_cachorro01 a p#texto_pequeno, 
+ul#racoes_gato li#racao_gato01 a p#texto_negrito, 
+ul#higiene_gato li#higiene_gato01 a p#texto_negrito, 
+ul#acessorio_cachorro li#acessorio_cachorro01 a p#texto_negrito {
+	position: relative;
+	font-family: Arial;
+	font-size: 8pt;
+	color: #000000; /*preto*/
+	text-decoration: none;
+	top: -75px;
+	left: 30px;
+}
+ul#racoes_cachorro li#racao_cachorro02 a p#texto_negrito, 
+ul#racoes_gato li#racao_gato03 a p#texto_negrito, 
+ul#racoes_gato li#racao_gato05 a p#texto_negrito, 
+ul#higiene_cachorro li#higiene_cachorro04 a p#texto_negrito, 
+ul#higiene_gato li#higiene_gato03 a p#texto_negrito, 
+ul#higiene_gato li#higiene_gato04 a p#texto_negrito, 
+ul#higiene_gato li#higiene_gato05 a p#texto_negrito, 
+ul#remedio_cachorro li#remedio_cachorro03 a p#texto_negrito, 
+ul#remedio_cachorro li#remedio_cachorro04 a p#texto_negrito, 
+ul#remedio_cachorro li#remedio_cachorro05 a p#texto_negrito, 
+ul#remedio_gato li#remedio_gato02 a p#texto_negrito, 
+ul#acessorio_cachorro li#acessorio_cachorro03 a p#texto_negrito, 
+ul#acessorio_cachorro li#acessorio_cachorro05 a p#texto_negrito, 
+ul#acessorio_gato li#acessorio_gato02 a p#texto_negrito, 
+ul#acessorio_gato li#acessorio_gato04 a p#texto_negrito {
+	position: relative;
+	font-family: Ranga;
+	font-size: 20pt;
+	font-weight: bold;
+	color: #c71585;
+	text-decoration: none;
+	top: -60px;
+	left: 0px;
+}
+ul#racoes_cachorro li#racao_cachorro02 a p#texto_pequeno, 
+ul#racoes_gato li#racao_gato03 a p#texto_pequeno, 
+ul#racoes_gato li#racao_gato05 a p#texto_pequeno, 
+ul#higiene_cachorro li#higiene_cachorro04 a p#texto_pequeno, 
+ul#higiene_gato li#higiene_gato03 a p#texto_pequeno, 
+ul#higiene_gato li#higiene_gato04 a p#texto_pequeno, 
+ul#higiene_gato li#higiene_gato05 a p#texto_pequeno, 
+ul#remedio_cachorro li#remedio_cachorro03 a p#texto_pequeno, 
+ul#remedio_cachorro li#remedio_cachorro04 a p#texto_pequeno, 
+ul#remedio_cachorro li#remedio_cachorro05 a p#texto_pequeno, 
+ul#remedio_gato li#remedio_gato02 a p#texto_pequeno, 
+ul#acessorio_cachorro li#acessorio_cachorro03 a p#texto_pequeno, 
+ul#acessorio_cachorro li#acessorio_cachorro05 a p#texto_pequeno, 
+ul#acessorio_gato li#acessorio_gato02 a p#texto_pequeno, 
+ul#acessorio_gato li#acessorio_gato04 a p#texto_pequeno, {
+	position: relative;
+	font-family: Arial;
+	font-size: 8pt;
+	color: #000000; /*preto*/
+	text-decoration: none;
+	top: -125px;
+	left: 30px;
+}
+ul#racoes_cachorro li#racao_cachorro03 a p#texto_negrito, 
+ul#racoes_cachorro li#racao_cachorro04 a p#texto_negrito, 
+ul#racoes_cachorro li#racao_cachorro05 a p#texto_negrito, 
+ul#racoes_gato li#racao_gato02 a p#texto_negrito, 
+ul#racoes_gato li#racao_gato04 a p#texto_negrito, 
+ul#higiene_cachorro li#higiene_cachorro02 a p#texto_negrito, 
+ul#higiene_cachorro li#higiene_cachorro03 a p#texto_negrito, 
+ul#higiene_cachorro li#higiene_cachorro05 a p#texto_negrito, 
+ul#higiene_gato li#higiene_gato02 a p#texto_negrito, 
+ul#remedio_cachorro li#remedio_cachorro02 a p#texto_negrito, 
+ul#remedio_gato li#remedio_gato03 a p#texto_negrito, 
+ul#remedio_gato li#remedio_gato04 a p#texto_negrito, 
+ul#acessorio_cachorro li#aessorio_cachorro02 a p#texto_negrito, 
+ul#acessorio_cachorro li#aessorio_cachorro04 a p#texto_negrito, 
+ul#acessorio_gato li#aessorio_gato03 a p#texto_negrito, 
+ul#acessorio_gato li#aessorio_gato05 a p#texto_negrito, {
+	position: relative;
+	font-family: Ranga;
+	font-size: 20pt;
+	font-weight: bold;
+	color: #c71585; /*preto*/
+	text-decoration: none;
+	top: -80px;
+	left: 0px;
+}
+ul#racoes_cachorro li#racao_cachorro03 a p#texto_pequeno, 
+ul#racoes_cachorro li#racao_cachorro04 a p#texto_pequeno, 
+ul#racoes_cachorro li#racao_cachorro05 a p#texto_pequeno, 
+ul#racoes_gato li#racao_gato02 a p#texto_negrito, 
+ul#racoes_gato li#racao_gato04 a p#texto_negrito, 
+ul#higiene_cachorro li#higiene_cachorro02 a p#texto_negrito, 
+ul#higiene_cachorro li#higiene_cachorro05 a p#texto_negrito, 
+ul#higiene_gato li#higiene_gato02 a p#texto_negrito, 
+ul#remedio_cachorro li#remedio_cachorro02 a p#texto_negrito, 
+ul#remedio_gato li#remedio_gato03 a p#texto_negrito, 
+ul#remedio_gato li#remedio_gato04 a p#texto_negrito, 
+ul#acessorio_cachorro li#acessorio_cachorro02 a p#texto_negrito, 
+ul#acessorio_cachorro li#acessorio_cachorro04 a p#texto_negrito, 
+ul#acessorio_gato li#acessorio_gato04 a p#texto_negrito, 
+ul#acessorio_gato li#acessorio_gato05 a p#texto_negrito {
+	position: relative;
+	font-family: Arial;
+	font-size: 8pt;
+	color: #000000; /*preto*/
+	text-decoration: none;
+	top: -145px;
+	left: 30px;
+}
+ul#racoes_cachorro li#racao_cachorro04 a p#texto_pequeno {
+	
+}
+ul#racoes_cachorro li#racao_cachorro05 a {
+	
+}
+ul#racoes_cachorro li#racao_cachorro05 p {
+	
+}
+ul#racoes_cachorro li#racao_cachorro05 a p#texto_negrito {
+	
+}
+ul#racoes_cachorro li#racao_cachorro05 a p#texto_pequeno {
+	
+}
+ul#racoes_gato li#racao_gato01 {
+	background: url('../_img/racao_gato01.jpg') no-repeat;
+	opacity: 1;
+}
+ul#racoes_gato li#racao_gato02 {
+	background: url('../_img/racao_gato02.jpg') no-repeat;
+	opacity: 1;
+}
+ul#racoes_gato li#racao_gato03 {
+	background: url('../_img/racao_gato03.jpg') no-repeat;
+	opacity: 1;
+}
+ul#racoes_gato li#racao_gato04 {
+	background: url('../_img/racao_gato04.jpg') no-repeat;
+	opacity: 1;
+}
+ul#racoes_gato li#racao_gato05 {
+	background: url('../_img/racao_gato05.jpg') no-repeat;
+	opacity: 1;
+}
+ul#racoes_gato li#racao_gato01 a {
+	
+}
+ul#racoes_gato li#racao_gato01 p {
+	
+}
+ul#racoes_gato li#racao_gato01 a p#texto_negrito {
+	
+}
+ul#racoes_gato li#racao_gato01 a p#texto_pequeno {
+	position: relative;
+	font-family: Arial;
+	font-size: 8pt;
+	color: #000000; /*preto*/
+	text-decoration: none;
+	top: -75px;
+	left: 30px;
+}
+ul#racoes_gato li#racao_gato02 a {
+	
+}
+ul#racoes_gato li#racao_gato02 p {
+	
+}
+ul#racoes_gato li#racao_gato02 a p#texto_negrito {
+	
+}
+ul#racoes_gato li#racao_gato02 a p#texto_pequeno {
+	
+}
+ul#racoes_gato li#racao_gato03 a {
+	
+}
+ul#racoes_gato li#racao_gato03 p {
+	
+}
+ul#racoes_gato li#racao_gato03 a p#texto_negrito {
+	
+}
+ul#racoes_gato li#racao_gato03 a p#texto_pequeno {
+	
+}
+ul#racoes_gato li#racao_gato04 a {
+	
+}
+ul#racoes_gato li#racao_gato04 p {
+	
+}
+ul#racoes_gato li#racao_gato04 a p#texto_negrito {
+	
+}
+ul#racoes_gato li#racao_gato04 a p#texto_pequeno {
+	
+}
+ul#racoes_gato li#racao_gato05 a {
+	
+}
+ul#racoes_gato li#racao_gato05 p {
+	
+}
+ul#racoes_gato li#racao_gato05 a p#texto_negrito {
+	
+}
+ul#racoes_gato li#racao_gato05 a p#texto_pequeno {
+	
+}
+ul#higiene_cachorro li#higiene_cachorro01 {
+	background: url('../_img/higiene_cachorro01.jpg') no-repeat;
+	opacity: 1;
+}
+ul#higiene_cachorro li#higiene_cachorro02 {
+	background: url('../_img/higiene_cachorro02.jpg') no-repeat;
+	opacity: 1;
+}
+ul#higiene_cachorro li#higiene_cachorro03 {
+	background: url('../_img/higiene_cachorro03.jpg') no-repeat;
+	opacity: 1;
+}
+ul#higiene_cachorro li#higiene_cachorro04 {
+	background: url('../_img/higiene_cachorro04.jpg') no-repeat;
+	opacity: 1;
+}
+ul#higiene_cachorro li#higiene_cachorro05 {
+	background: url('../_img/higiene_cachorro05.jpg') no-repeat;
+	opacity: 1;
+}
+ul#higiene_cachorro li#higiene_cachorro01 a {
+	
+}
+ul#higiene_cachorro li#higiene_cachorro01 p {
+	
+}
+ul#higiene_cachorro li#higiene_cachorro01 a p#texto_negrito, 
+ul#remedio_cachorro li#remedio_cachorro01 a p#texto_negrito,
+ul#remedio_gato li#remedio_gato01 a p#texto_negrito,
+ul#acessorio_gato li#acessorio_gato01 a p#texto_negrito {
+	position: relative;
+	font-family: Ranga;
+	font-size: 20pt;
+	font-weight: bold;
+	color: #C71585;
+	text-decoration: none;
+	top: -25px;
+	left: 0px;
+}
+ul#higiene_cachorro li#higiene_cachorro01 a p#texto_pequeno, 
+ul#remedio_cachorro li#remedio_cachorro01 a p#texto_pequeno {
+		position: relative;
+		font-family: Arial;
+		font-size: 8pt;
+		color: #000000; /*preto*/
+		text-decoration: none;
+		top: -95px;
+		left: 30px;
+}
+ul#higiene_cachorro li#higiene_cachorro02 a {
+	
+}
+ul#higiene_cachorro li#higiene_cachorro02 p {
+	
+}
+ul#higiene_cachorro li#higiene_cachorro02 a p#texto_negrito {
+	
+}
+ul#higiene_cachorro li#higiene_cachorro02 a p#texto_pequeno {
+	
+}
+ul#higiene_cachorro li#higiene_cachorro03 a {
+	
+}
+ul#higiene_cachorro li#higiene_cachorro03 p {
+	
+}
+ul#higiene_cachorro li#higiene_cachorro03 a p#texto_negrito {
+	
+}
+ul#higiene_cachorro li#higiene_cachorro03 a p#texto_pequeno {
+	position: relative;
+	font-family: Arial;
+	font-size: 8pt;
+	color: #000000; /*preto*/
+	text-decoration: none;
+	top: -160px;
+	left: 30px;
+}
+ul#higiene_cachorro li#higiene_cachorro04 a {
+	
+}
+ul#higiene_cachorro li#higiene_cachorro04 p {
+	
+}
+ul#higiene_cachorro li#higiene_cachorro04 a p#texto_negrito {
+	
+}
+ul#higiene_cachorro li#higiene_cachorro04 a p#texto_pequeno {
+	
+}
+ul#higiene_cachorro li#higiene_cachorro05 a {
+	
+}
+ul#higiene_cachorro li#higiene_cachorro05 p {
+	
+}
+ul#higiene_cachorro li#higiene_cachorro05 a p#texto_negrito {
+	
+}
+ul#higiene_cachorro li#higiene_cachorro05 a p#texto_pequeno {
+	
+}
+ul#higiene_gato li#higiene_gato01 {
+	background: url('../_img/higiene_gato01.jpg') no-repeat;
+	opacity: 1;
+}
+ul#higiene_gato li#higiene_gato02 {
+	background: url('../_img/higiene_gato02.jpg') no-repeat;
+	opacity: 1;
+}
+ul#higiene_gato li#higiene_gato03 {
+	background: url('../_img/higiene_gato03.jpg') no-repeat;
+	opacity: 1;
+}
+ul#higiene_gato li#higiene_gato04 {
+	background: url('../_img/higiene_gato04.jpg') no-repeat;
+	opacity: 1;
+}
+ul#higiene_gato li#higiene_gato05 {
+	background: url('../_img/higiene_gato05.jpg') no-repeat;
+	opacity: 1;
+}
+ul#higiene_gato li#higiene_gato01 a {
+	
+}
+ul#higiene_gato li#higiene_gato01 p {
+	
+}
+ul#higiene_gato li#higiene_gato01 a p#texto_negrito {
+	
+}
+ul#higiene_gato li#higiene_gato01 a p#texto_pequeno {
+	position: relative;
+	font-family: Arial;
+	font-size: 8pt;
+	color: #000000; /*preto*/
+	text-decoration: none;
+	top: -75px;
+	left: 30px;
+}
+ul#higiene_gato li#higiene_gato02 a {
+	
+}
+ul#higiene_gato li#higiene_gato02 p {
+	
+}
+ul#higiene_gato li#higiene_gato02 a p#texto_negrito {
+	
+}
+ul#higiene_gato li#higiene_gato02 a p#texto_pequeno {
+	
+}
+ul#higiene_gato li#higiene_gato03 a {
+	
+}
+ul#higiene_gato li#higiene_gato03 p {
+	
+}
+ul#higiene_gato li#higiene_gato03 a p#texto_negrito {
+	
+}
+ul#higiene_gato li#higiene_gato03 a p#texto_pequeno {
+	
+}
+ul#higiene_gato li#higiene_gato04 a {
+	
+}
+ul#higiene_gato li#higiene_gato04 p {
+	
+}
+ul#higiene_gato li#higiene_gato04 a p#texto_negrito {
+	
+}
+ul#higiene_gato li#higiene_gato04 a p#texto_pequeno {
+	
+}
+ul#higiene_gato li#higiene_gato05 a {
+	
+}
+ul#higiene_gato li#higiene_gato05 p {
+	
+}
+ul#higiene_gato li#higiene_gato05 a p#texto_negrito {
+	
+}
+ul#higiene_gato li#higiene_gato05 a p#texto_pequeno {
+	
+}
+ul#remedio_cachorro li#remedio_cachorro01 {
+	background: url('../_img/remedio_cachorro01.jpg') no-repeat;
+	opacity: 1;
+}
+ul#remedio_cachorro li#remedio_cachorro02 {
+	background: url('../_img/remedio_cachorro02.jpg') no-repeat;
+	opacity: 1;
+}
+ul#remedio_cachorro li#remedio_cachorro03 {
+	background: url('../_img/remedio_cachorro03.jpg') no-repeat;
+	opacity: 1;
+}
+ul#remedio_cachorro li#remedio_cachorro04 {
+	background: url('../_img/remedio_cachorro04.jpg') no-repeat;
+	opacity: 1;
+}
+ul#remedio_cachorro li#remedio_cachorro05 {
+	background: url('../_img/remedio_cachorro05.jpg') no-repeat;
+	opacity: 1;
+}
+ul#remedio_cachorro li#remedio_cachorro01 a {
+	
+}
+ul#remedio_cachorro li#remedio_cachorro01 p {
+	
+}
+ul#remedio_cachorro li#remedio_cachorro01 a p#texto_negrito {
+	
+}
+ul#remedio_cachorro li#remedio_cachorro01 a p#texto_pequeno {
+	
+}
+ul#remedio_cachorro li#remedio_cachorro02 a {
+	
+}
+ul#remedio_cachorro li#remedio_cachorro02 p {
+	
+}
+ul#remedio_cachorro li#remedio_cachorro02 a p#texto_negrito {
+	
+}
+ul#remedio_cachorro li#remedio_cachorro02 a p#texto_pequeno {
+	
+}
+ul#remedio_cachorro li#remedio_cachorro03 a {
+	
+}
+ul#remedio_cachorro li#remedio_cachorro03 p {
+	
+}
+ul#remedio_cachorro li#remedio_cachorro03 a p#texto_negrito {
+	
+}
+ul#remedio_cachorro li#remedio_cachorro03 a p#texto_pequeno {
+	
+}
+ul#remedio_cachorro li#remedio_cachorro04 a {
+	
+}
+ul#remedio_cachorro li#remedio_cachorro04 p {
+	
+}
+ul#remedio_cachorro li#remedio_cachorro04 a p#texto_negrito {
+	
+}
+ul#remedio_cachorro li#remedio_cachorro04 a p#texto_pequeno {
+	
+}
+ul#remedio_cachorro li#remedio_cachorro05 a {
+	
+}
+ul#remedio_cachorro li#remedio_cachorro05 p {
+	
+}
+ul#remedio_cachorro li#remedio_cachorro05 a p#texto_negrito {
+	
+}
+ul#remedio_cachorro li#remedio_cachorro05 a p#texto_pequeno {
+	
+}
+ul#remedio_gato li#remedio_gato01 {
+	background: url('../_img/remedio_gato01.jpg') no-repeat;
+	opacity: 1;
+}
+ul#remedio_gato li#remedio_gato02 {
+	background: url('../_img/remedio_gato02.jpg') no-repeat;
+	opacity: 1;
+}
+ul#remedio_gato li#remedio_gato03 {
+	background: url('../_img/remedio_gato03.jpeg') no-repeat;
+	opacity: 1;
+}
+ul#remedio_gato li#remedio_gato04 {
+	background: url('../_img/remedio_gato04.jpg') no-repeat;
+	opacity: 1;
+}
+ul#remedio_gato li#remedio_gato05 {
+	background: url('../_img/remedio_gato05.jpg') no-repeat;
+	opacity: 1;
+}
+ul#remedio_gato li#remedio_gato01 a {
+	
+}
+ul#remedio_gato li#remedio_gato01 p {
+	
+}
+ul#remedio_gato li#remedio_gato01 a p#texto_negrito {
+	
+}
+ul#remedio_gato li#remedio_gato01 a p#texto_pequeno, 
+ul#acessorio_gato li#acessorio_gato01 a p#texto_pequeno {
+	position: relative;
+	font-family: Arial;
+	font-size: 8pt;
+	color: #000000; /*preto*/
+	text-decoration: none;
+	top: -90px;
+	left: 30px;
+}
+ul#remedio_gato li#remedio_gato02 a {
+	
+}
+ul#remedio_gato li#remedio_gato02 p {
+	
+}
+ul#remedio_gato li#remedio_gato02 a p#texto_negrito {
+	
+}
+ul#remedio_gato li#remedio_gato02 a p#texto_pequeno {
+	
+}
+ul#remedio_gato li#remedio_gato03 a {
+	
+}
+ul#remedio_gato li#remedio_gato03 p {
+	
+}
+ul#remedio_gato li#remedio_gato03 a p#texto_negrito {
+	
+}
+ul#remedio_gato li#remedio_gato03 a p#texto_pequeno {
+	
+}
+ul#remedio_gato li#remedio_gato04 a {
+	
+}
+ul#remedio_gato li#remedio_gato04 p {
+	
+}
+ul#remedio_gato li#remedio_gato04 a p#texto_negrito {
+	
+}
+ul#remedio_gato li#remedio_gato04 a p#texto_pequeno {
+	
+}
+ul#remedio_gato li#remedio_gato05 a {
+	
+}
+ul#remedio_gato li#remedio_gato05 p {
+	
+}
+ul#remedio_gato li#remedio_gato05 a p#texto_negrito {
+	position: relative;
+	font-family: Ranga;
+	font-size: 20pt;
+	font-weight: bold;
+	color: #c71585; /*preto*/
+	text-decoration: none;
+	top: -45px;
+	left: 0px;
+}
+ul#remedio_gato li#remedio_gato05 a p#texto_pequeno {
+	position: relative;
+	font-family: Arial;
+	font-size: 8pt;
+	color: #000000; /*preto*/
+	text-decoration: none;
+	top: -110px;
+	left: 30px;
+}
+ul#acessorio_cachorro li#acessorio_cachorro01 {
+	background: url('../_img/acessorio_cachorro01.jpg') no-repeat;
+	opacity: 1;
+}
+ul#acessorio_cachorro li#acessorio_cachorro02 {
+	background: url('../_img/acessorio_cachorro02.jpg') no-repeat;
+	opacity: 1;
+}
+ul#acessorio_cachorro li#acessorio_cachorro03 {
+	background: url('../_img/acessorio_cachorro03.jpg') no-repeat;
+	opacity: 1;
+}
+ul#acessorio_cachorro li#acessorio_cachorro04 {
+	background: url('../_img/acessorio_cachorro04.jpg') no-repeat;
+	opacity: 1;
+}
+ul#acessorio_cachorro li#acessorio_cachorro05 {
+	background: url('../_img/acessorio_cachorro05.jpg') no-repeat;
+	opacity: 1;
+}
+ul#acessorio_cachorro li#acessorio_cachorro01 a {
+	
+}
+ul#acessorio_cachorro li#acessorio_cachorro01 p {
+	
+}
+ul#acessorio_cachorro li#acessorio_cachorro01 a p#texto_negrito {
+	
+}
+ul#acessorio_cachorro li#acessorio_cachorro01 a p#texto_pequeno {
+	position: relative;
+	font-family: Arial;
+	font-size: 8pt;
+	color: #000000; /*preto*/
+	text-decoration: none;
+	top: -75px;
+	left: 30px;
+}
+ul#acessorio_cachorro li#acessorio_cachorro02 a {
+	
+}
+ul#acessorio_cachorro li#acessorio_cachorro02 p {
+	
+}
+ul#acessorio_cachorro li#acessorio_cachorro02 a p#texto_negrito {
+	
+}
+ul#acessorio_cachorro li#acessorio_cachorro02 a p#texto_pequeno {
+	
+}
+ul#acessorio_cachorro li#acessorio_cachorro03 a {
+	
+}
+ul#acessorio_cachorro li#acessorio_cachorro03 p {
+	
+}
+ul#acessorio_cachorro li#acessorio_cachorro03 a p#texto_negrito {
+	
+}
+ul#acessorio_cachorro li#acessorio_cachorro03 a p#texto_pequeno {
+	
+}
+ul#acessorio_cachorro li#acessorio_cachorro04 a {
+	
+}
+ul#acessorio_cachorro li#acessorio_cachorro04 p {
+	
+}
+ul#acessorio_cachorro li#acessorio_cachorro04 a p#texto_negrito {
+	
+}
+ul#acessorio_cachorro li#acessorio_cachorro04 a p#texto_pequeno {
+	
+}
+ul#acessorio_cachorro li#acessorio_cachorro05 a {
+	
+}
+ul#acessorio_cachorro li#acessorio_cachorro05 p {
+	
+}
+ul#acessorio_cachorro li#acessorio_cachorro05 a p#texto_negrito {
+	
+}
+ul#acessorio_cachorro li#acessorio_cachorro05 a p#texto_pequeno {
+	
+}
+ul#acessorio_gato li#acessorio_gato01 {
+	background: url('../_img/acessorio_gato01.jpg') no-repeat;
+	opacity: 1;
+}
+ul#acessorio_gato li#acessorio_gato02 {
+	background: url('../_img/acessorio_gato02.jpg') no-repeat;
+	opacity: 1;
+}
+ul#acessorio_gato li#acessorio_gato03 {
+	background: url('../_img/acessorio_gato03.jpg') no-repeat;
+	opacity: 1;
+}
+ul#acessorio_gato li#acessorio_gato04 {
+	background: url('../_img/acessorio_gato04.jpg') no-repeat;
+	opacity: 1;
+}
+ul#acessorio_gato li#acessorio_gato05 {
+	background: url('../_img/acessorio_gato05.jpg') no-repeat;
+	opacity: 1;
+}
+ul#acessorio_gato li#acessorio_gato01 a {
+	
+}
+ul#acessorio_gato li#acessorio_gato01 p {
+	
+}
+ul#acessorio_gato li#acessorio_gato01 a p#texto_negrito {
+	
+}
+ul#acessorio_gato li#acessorio_gato01 a p#texto_pequeno {
+	
+}
+ul#acessorio_gato li#acessorio_gato02 a {
+	
+}
+ul#acessorio_gato li#acessorio_gato02 p {
+	
+}
+ul#acessorio_gato li#acessorio_gato02 a p#texto_negrito {
+	
+}
+ul#acessorio_gato li#acessorio_gato02 a p#texto_pequeno {
+	
+}
+ul#acessorio_gato li#acessorio_gato03 a {
+	
+}
+ul#acessorio_gato li#acessorio_gato03 p {
+	
+}
+ul#acessorio_gato li#acessorio_gato03 a p#texto_negrito {
+	
+}
+ul#acessorio_gato li#acessorio_gato03 a p#texto_pequeno {
+	
+}
+ul#acessorio_gato li#acessorio_gato04 a {
+	
+}
+ul#acessorio_gato li#acessorio_gato04 p {
+	
+}
+ul#acessorio_gato li#acessorio_gato04 a p#texto_negrito {
+	
+}
+ul#acessorio_gato li#acessorio_gato04 a p#texto_pequeno {
+	
+}
+ul#acessorio_gato li#acessorio_gato05 a {
+	
+}
+ul#acessorio_gato li#acessorio_gato05 p {
+	
+}
+ul#acessorio_gato li#acessorio_gato05 a p#texto_negrito {
+	
+}
+ul#acessorio_gato li#acessorio_gato05 a p#texto_pequeno {
+	
+}

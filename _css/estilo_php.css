@@ -6,6 +6,8 @@ div#php {
 	background-color: #50c878; /*Esmeralda*/
 	text-align: center;
 	font-size: 20pt;
+	font-family: Ranga;
+	/*text-transform: uppercase;*/
 }
 div#php a#mensagem {
 	font-family: Ranga;

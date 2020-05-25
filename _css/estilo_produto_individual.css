@@ -55,8 +55,28 @@ ul#produto_individual li#imagem_higiene_cachorro05 {
 	background: url('../_img/higiene_cachorro05.jpg') no-repeat;
 	background-position: center;
 }
-ul#produto_individual li#imagem_remedios_cachorro01 {
-	background: url('../_img/remedios_cachorro01.jpg') no-repeat;
+ul#produto_individual li#imagem_remedio_cachorro01 {
+	background: url('../_img/remedio_cachorro01.jpg') no-repeat;
+	background-position: center;
+}
+ul#produto_individual li#imagem_remedio_cachorro02 {
+	background: url('../_img/remedio_cachorro02.jpg') no-repeat;
+	background-position: center;
+}
+ul#produto_individual li#imagem_remedio_cachorro03 {
+	background: url('../_img/remedio_cachorro03.jpg') no-repeat;
+	background-position: center;
+}
+ul#produto_individual li#imagem_remedio_cachorro04 {
+	background: url('../_img/remedio_cachorro04.jpg') no-repeat;
+	background-position: center;
+}
+ul#produto_individual li#imagem_remedio_cachorro05 {
+	background: url('../_img/remedio_cachorro05.jpg') no-repeat;
+	background-position: center;
+}
+ul#produto_individual li#imagem_acessorio_cachorro01 {
+	background: url('../_img/acessorio_cachorro01.jpg') no-repeat;
 	background-position: center;
 }
 ul#produto_individual li#imagem_acessorio_cachorro02 {
@@ -73,26 +93,6 @@ ul#produto_individual li#imagem_acessorio_cachorro04 {
 }
 ul#produto_individual li#imagem_acessorio_cachorro05 {
 	background: url('../_img/acessorio_cachorro05.jpg') no-repeat;
-	background-position: center;
-}
-ul#produto_individual li#imagem_acessorio_cachorro01 {
-	background: url('../_img/acessorio_cachorro01.jpg') no-repeat;
-	background-position: center;
-}
-ul#produto_individual li#imagem_remedios_cachorro02 {
-	background: url('../_img/remedios_cachorro02.jpg') no-repeat;
-	background-position: center;
-}
-ul#produto_individual li#imagem_remedios_cachorro03 {
-	background: url('../_img/remedios_cachorro03.jpg') no-repeat;
-	background-position: center;
-}
-ul#produto_individual li#imagem_remedios_cachorro04 {
-	background: url('../_img/remedios_cachorro04.jpg') no-repeat;
-	background-position: center;
-}
-ul#produto_individual li#imagem_remedios_cachorro05 {
-	background: url('../_img/remedios_cachorro05.jpg') no-repeat;
 	background-position: center;
 }
 ul#produto_individual li#imagem_racao_gato01 {
