@@ -26,7 +26,7 @@
 		<div id="php">
 			<?php
 				try {
-					$conn = new PDO ('mysql:host=localhost;dbname=petshop','root','');
+					$conn = new PDO ('mysql:host=localhost;dbname=site_petshop','root','');
 					$conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
 					$stmt = $conn->prepare('INSERT INTO cadastro (nome, sexo, cpf, data, endereco, numero, bairro, cidade, estado, telefone, email) VALUES (:nome, :sexo, :cpf, :data, :endereco, :numero, :bairro, :cidade, :estado, :telefone, :email)');

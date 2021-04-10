@@ -4,7 +4,8 @@
 	error_reporting(E_ALL | E_WARNING | E_PARSE);
 
 	#Configuração de Rotas
-	$project_name = "/trabalhofinal_pi_petshop_marcos/";
+	$project_name = "/site_petshop_github/site_petshop/";
+	//aqui vai o nome do projeto/site
 
 	#Rota 1 - URL geral do projeto
 	$project_index = "http://".$_SERVER['SERVER_NAME'].$project_name;

@@ -1,7 +1,7 @@
 <?php
 	ini_set('display_errors', 1);
 	# Incluindo os arquivos necessários
-	include_once dirname(__DIR__) ."/trabalhofinal_pi_petshop_marcos/models/config.php";
+	include_once 'models/config.php';
 	include_once $project_path."/models/class/Connect.class.php";
 	include_once $project_path."/models/class/Manager.class.php";
 	//include_once $project_path."/models/class/User.class.php";
