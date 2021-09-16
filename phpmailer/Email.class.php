@@ -34,7 +34,7 @@
 				$mail->SMTPAuth = true;
 				$mail->SMTPSecure = 'tls';
 				$mail->Username = 'marcos.devmarcos@gmail.com';
-				$mail->Password = 'Qq1Ww2/*/*';
+				$mail->Password = ''; //segredo 🙊
 				$mail->Port = 587;
 				$mail->Send();
 				//echo "E-mail enviado com sucesso!";
